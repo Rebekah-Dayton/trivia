@@ -125,9 +125,13 @@ class App extends Component {
       <div className="App">
         
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>React Quiz</h2>
+          <h2>Random Trivia</h2>
       
         {this.state.result ? this.renderResult() : this.renderQuiz()}
+        
+        <div>
+        <footer id="footer">My github repository: <a href="https://github.com/Rebekah-Dayton/trivia.git">https://github.com/Rebekah-Dayton/trivia.git</a></footer>
+        </div>
       </div>
     );
   }
